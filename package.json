@@ -1,0 +1,21 @@
+{
+  "name": "circle-ci-conditional-tags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "tags": "echo \"Run only with a tag\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibchombiano26/circle-ci-conditional-tags.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chibchombiano26/circle-ci-conditional-tags/issues"
+  },
+  "homepage": "https://github.com/chibchombiano26/circle-ci-conditional-tags#readme"
+}
