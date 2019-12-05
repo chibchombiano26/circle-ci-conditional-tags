@@ -53,9 +53,8 @@ workflows:
     jobs:
       - build:
           filters:
-            branches:
-              only:
-                - nanannana
+            tags:
+              only: /.*/
       - tags:
           requires:
             - build
