@@ -35,6 +35,9 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
   tags:
      docker:
       # specify the version you desire here
