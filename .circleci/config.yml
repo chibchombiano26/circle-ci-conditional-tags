@@ -53,6 +53,8 @@ workflows:
     jobs:
       - build:
           filters:
+            tags:
+              ignore: /.*/
             branches:
               only: /.*/
       - tags:
